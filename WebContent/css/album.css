@@ -1,0 +1,58 @@
+.main {
+	padding-top: 30px;
+}
+/* Mô tả Album */
+.description h1 {
+	margin-bottom: 20px;
+}
+.description .media-left {
+	padding-right: 40px;
+}
+.description .album-info {
+	color: #999;
+	margin-bottom: 10px;
+}
+.description .singer, .description .date, .description .company {
+	color: #0B5345;
+}
+/* mô tả cuối album */
+.toolbar {
+	margin-top: 30px;
+}
+/*Giới thiệu album*/
+.album-desc {
+	margin-bottom: 30px;
+}
+.album-desc h3 {
+	font-size: 16px;
+}
+.album-desc p {
+	text-indent: 2em;
+	color: #666;
+}
+/*giới thiệu cuối album*/
+/* danh sách bài hát */
+.list {
+	padding-top: 10px;
+}
+.list h2 {
+	margin-bottom: 20px;
+}
+.list table td:first-child {
+	color: #999;
+	padding-left: 15px;
+}
+.list .list-num {
+	width: 5%;
+}
+.list .list-icon {
+	width: 5%;
+}
+.list .list-title {
+	font-weight: normal;
+}
+.list .list-singer {
+	font-weight: normal;
+	width: 25%;
+}
+/* kết thúc danh sách bài hát */

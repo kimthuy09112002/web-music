@@ -1,0 +1,77 @@
+body {
+	padding-bottom: 90px; /*chiều cao người chơi */
+}
+/* Định vị trình phát ở dưới cùng */
+.player-container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#player {
+	margin: 0;
+	width: 100%;
+}
+
+/* Ghi đè hiệu ứng style của bootstrap */
+#player * {
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+#player .aplayer-info {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+/* mô tả bài hát */
+.description {
+	padding-top: 30px;
+}
+.description h1 {
+	margin-bottom: 20px;
+}
+.description .media-left {
+	padding-right: 40px;
+}
+.description .music-info {
+	color: #999;
+	margin-bottom: 10px;
+}
+.description .singer {
+	color: #0B5345;
+}
+.description .album {
+	color: #0B5345;
+}
+/* kết thúc mô tả bài hát */
+/* thanh công cụ */
+.toolbar {
+	margin-top: 30px;
+}
+
+/* kết thúc thanh công cụ */
+/* Bình luận */
+.comments {
+	margin-top: 70px;
+}
+.comments h2 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1ABC9C;
+}
+.comments .media {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCC;
+}
+.comments .media-object {
+	max-width: 50px;
+	max-height: 50px;
+}
+.comments .nickname {
+	/*color: #337ab7;*/
+}
+.comments .comments-pager nav{
+	text-align: center;
+}
+
+/* kết thúc bình luận */
